@@ -113,7 +113,7 @@ def send_start(client: pyrogram.client.Client, message: pyrogram.types.messages_
     app.send_message(message.chat.id, f"__👋 Hi **{message.from_user.mention}**, i am Link Bypasser Bot, just send me any supported links and i will you get you results.\nCheckout /help to Read More__",
     reply_markup=InlineKeyboardMarkup([
         [ InlineKeyboardButton("CHANNEL", url="https://t.me/Max_Leech_Zone_Update")],
-        [ InlineKeyboardButton("GRUOP", url="https://t.me/Max_Bypass_V71") ]]), 
+        [ InlineKeyboardButton("WEBSITE", url="https://bypassnew-f73c5f7386c6.herokuapp.com/") ]]), 
         reply_to_message_id=message.id)
 
 
